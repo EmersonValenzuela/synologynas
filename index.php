@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <?php
-		$con = mysqli_connect('localhost', 'root','','servitec_visitas') or ('no encontramos base de datos');
-		$conn = mysqli_connect('localhost',  'root', '','servite_web') or ('no encontramos base de datos');
+	$con = mysqli_connect('localhost', 'servitec_root','garciagodos1','servitec_visitas') or ('no encontramos base de datos');
+	$conn = mysqli_connect('localhost',  'servitec_1', 'servitectecambialavida','servite_web') or ('no encontramos base de datos');
 	if (!function_exists('getShortedString')) {
 		function getShortedString($text, $length=null)
 		{
@@ -24,7 +24,7 @@
 
 <!-- Mirrored from forest.themenum.com/crown/index4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Feb 2021 16:33:42 GMT -->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset=UTF-8>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Synology Nas | Servitec Peru</title>
 <link rel="icon" href="images/icon.png" type="image/x-icon">
@@ -62,7 +62,7 @@
 						<li><a href="#features" class="smooth" title="">Nosotros</a></li>
 						<li><a href="#service" class="smooth" title="">Servicios</a></li>
                         
-						<li><a href="#team" class="smooth" title="">Equipo</a></li>e
+						<li><a href="#team" class="smooth" title="">Equipo</a></li>
 						<li><a href="#contact-us" class="smooth" title="">Contáctanos</a></li>
 					</ul>
 				</div><!-- Menu -->
@@ -129,12 +129,12 @@
 	
 	<section class="block no-padding dark">
 		<ul class="clients" id="carousal">
-			<li><a href="#" title=""><img src="images/cy.jpeg" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/ma.jpeg" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/sd.jpeg" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/so.jpeg" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/sy.jpeg" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/wb.jpeg" alt=""/></a></li>
+			<li><a href="#" title=""><img src="images/1.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/2.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/3.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/4.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/5.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/6.png" alt=""/></a></li>
 		</ul>
 	</section>
 	
@@ -287,8 +287,8 @@
 			<i class="ti-arrows-horizontal"></i>
 			<div class="prdct-mockup-info">
 				<span><?=$c++?></span>
-				<h3><?=$row['titulo']?></h3>
-				<p><?= $row['descripcion'];?></p>
+				<h3><?=utf8_encode($row['titulo'])?></h3>
+				<p><?= utf8_encode($row['descripcion']);?></p>
 			</div>
 		</div><!-- Cool Features -->
 		    
@@ -322,8 +322,8 @@
 									<img src="images/services/<?=$row['foto']?>" alt="" height="300" />
 									<a href="https://servitecperu.com/web/detalle_especialidad.php?id_servicio=<?php echo $row['id_servicio'];?>&id_categoria_servicio=19" title=""><i class="ti-link"></i></a>
 								</div>
-								<h3><a target="_blank" href="https://servitecperu.com/web/detalle_especialidad.php?id_servicio=<?php echo $row['id_servicio'];?>&id_categoria_servicio=19" title=""><?=$row['titulo']?></a></h3>
-								<p style="!important;font-weight:500;text-overflow:ellipsis;"><?= getShortedString($row['descripcion'],115)?></p>
+								<h3><a target="_blank" href="https://servitecperu.com/web/detalle_especialidad.php?id_servicio=<?php echo $row['id_servicio'];?>&id_categoria_servicio=19" title=""><?=utf8_encode($row['titulo'])?></a></h3>
+								<p style="!important;font-weight:500;text-overflow:ellipsis;"><?= utf8_encode(getShortedString($row['descripcion'],115))?></p>
 							</div>
 						</div><!-- Blog Post -->
 					</div>

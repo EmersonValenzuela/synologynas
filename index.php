@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <?php
-		$con = mysqli_connect('localhost', 'servitec_root','garciagodos1','servitec_visitas') or ('no encontramos base de datos');
-		$conn = mysqli_connect('localhost',  'servitec_1', 'servitectecambialavida','servite_web') or ('no encontramos base de datos');
+		$con = mysqli_connect('localhost', 'root','','servitec_visitas') or ('no encontramos base de datos');
+		$conn = mysqli_connect('localhost',  'root', '','servite_web') or ('no encontramos base de datos');
 	if (!function_exists('getShortedString')) {
 		function getShortedString($text, $length=null)
 		{
@@ -26,7 +26,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All in one | Servitec Peru</title>
+<title>Synology Nas | Servitec Peru</title>
 <link rel="icon" href="images/icon.png" type="image/x-icon">
 
 <link href='../../fonts.googleapis.com/css4673.css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css' />
@@ -118,7 +118,7 @@
 									</div>
 									<br>
 								<input  name="direccion" type="text"  placeholder="Dirección: Av. Jr. o Calle y N°" />
-								<input onclick="return gtag_report_conversion('https://servitec-allinon.site/')" type="submit" value="Enviar Consulta" name="confirmar" />
+								<input  type="submit" value="Enviar Consulta" name="confirmar" />
 							</form>
 						</div>
 					</div>
@@ -129,12 +129,12 @@
 	
 	<section class="block no-padding dark">
 		<ul class="clients" id="carousal">
-			<li><a href="#" title=""><img src="images/carrousel/acer.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/carrousel/asus.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/carrousel/toshiba.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/carrousel/lenovo.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/carrousel/sony.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/carrousel/dell.png" alt=""/></a></li>
+			<li><a href="#" title=""><img src="images/cy.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/ma.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/sd.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/so.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/sy.png" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/wb.png" alt=""/></a></li>
 		</ul>
 	</section>
 	
@@ -424,7 +424,7 @@
 								<div class="col-md-12">
 									<textarea  id="comments" class="input-style" placeholder="Consulta" name="consulta"></textarea>
 									
-									<input onclick="return gtag_report_conversion('https://servitec-allinon.site/')" type="submit" class="submit"  name="enviar" value="Enviar" />
+									<input type="submit" class="submit"  name="enviar" value="Enviar" />
 								</div>
 							</div>
 						</form>

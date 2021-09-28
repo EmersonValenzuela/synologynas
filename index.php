@@ -129,12 +129,12 @@
 	
 	<section class="block no-padding dark">
 		<ul class="clients" id="carousal">
-			<li><a href="#" title=""><img src="images/cy.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/ma.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/sd.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/so.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/sy.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/wb.png" alt=""/></a></li>
+			<li><a href="#" title=""><img src="images/cy.jpeg" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/ma.jpeg" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/sd.jpeg" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/so.jpeg" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/sy.jpeg" alt="" /></a></li>
+			<li><a href="#" title=""><img src="images/wb.jpeg" alt=""/></a></li>
 		</ul>
 	</section>
 	

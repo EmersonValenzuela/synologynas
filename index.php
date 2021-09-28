@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <?php
-	$con = mysqli_connect('localhost', 'root','','servitec_visitas') or ('no encontramos base de datos');
-	$conn = mysqli_connect('localhost',  'root', '','servite_web') or ('no encontramos base de datos');
+		$con = mysqli_connect('localhost', 'servitec_root','garciagodos1','servitec_visitas') or ('no encontramos base de datos');
+		$conn = mysqli_connect('localhost',  'servitec_1', 'servitectecambialavida','servite_web') or ('no encontramos base de datos');
 	if (!function_exists('getShortedString')) {
 		function getShortedString($text, $length=null)
 		{

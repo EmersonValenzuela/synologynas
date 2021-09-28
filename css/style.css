@@ -3951,6 +3951,80 @@ select:-moz-focusring {
 select::-ms-expand {
     display: none;
 }
-
+/*Whatsapp*/
+.whatsapp-movil{
+    display: none;
+  }
+  
+  .btn-whatsapp{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #009345;
+    position: fixed;
+    right: 0;
+    padding: 5px 10px 5px;
+    color: white;
+    z-index: 1500;
+    top: 65%;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #fff;
+  }
+  
+  .btn-whatsapp.btn-atencion{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #009345;
+    position: fixed;
+    right: 0;
+    padding: 0 10px;
+    color: white;
+    z-index: 1500;
+    top: 60%;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+  }
+  
+  .btn-whatsapp.btn-atencion p{
+      margin-bottom: 0;
+      color: #fff;
+  }
+  
+  .btn-whatsapp i{
+    color: white;
+    font-size: 2.8em;
+    margin-right: 5px;
+  }
+  
+  .btn-whatsapp label{
+    display: inline-block;
+    color: white;
+  }
+  
+  .btn-whatsapp label span{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .btn-whatsapp:hover,
+  .btn-whatsapp:focus{
+    color: white;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .whatsapp-movil{
+      display: block;
+    }
+  
+    .whatsapp-escritorio{
+      display: none;
+    }
+  
+    .btn-whatsapp i{
+      margin-right: 0;
+    }
+  
 
 /*==========  Generic styling  ==========*/

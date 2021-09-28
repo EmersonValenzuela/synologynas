@@ -34,6 +34,7 @@
 <!-- Styles -->
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" /><!-- Bootstrap -->
 <link rel="stylesheet" href="css/themify-icons.css" type="text/css" /><!-- Icons -->
+<link rel="stylesheet" href="css/all.css" type="text/css" /><!-- Icons -->
 <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" /><!-- Owl Carousal -->
 <link rel="stylesheet" href="css/animate.css" type="text/css" /><!-- Owl Carousal -->
 
@@ -129,12 +130,12 @@
 	
 	<section class="block no-padding dark">
 		<ul class="clients" id="carousal">
-			<li><a href="#" title=""><img src="images/1.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/2.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/3.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/4.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/5.png" alt="" /></a></li>
-			<li><a href="#" title=""><img src="images/6.png" alt=""/></a></li>
+			<li><a href="#" title=""><img src="images/1.png" alt="" height="150"/></a></li>
+			<li><a href="#" title=""><img src="images/2.png" alt="" height="150"></a></li>
+			<li><a href="#" title=""><img src="images/3.png" alt="" height="150"/></a></li>
+			<li><a href="#" title=""><img src="images/4.png" alt="" height="150"/></a></li>
+			<li><a href="#" title=""><img src="images/5.png" alt="" height="150"/></a></li>
+			<li><a href="#" title=""><img src="images/6.png" alt=""height="150"/></a></li>
 		</ul>
 	</section>
 	
@@ -453,6 +454,23 @@
 			</div>
 		</div>
 	</section>
+	<div class="whatsapp-escritorio">
+      <a class="btn-whatsapp" target="_blank"
+        href="https://api.whatsapp.com/send?phone=51967787226&text=Me%20interesa%20saber%20m%C3%A1s%20sobre%20el%20precio%20de%20sus%20productos"
+        style="background-color: #009345;"><i class="fab fa-whatsapp"></i><label>Atención Inmediata <br>
+          <span>967787226</span></label></a>
+    </div>
+
+    <div class="whatsapp-movil">
+      <div class="btn-whatsapp btn-atencion">
+        <p>Atenci&oacute;n inmediata:</p>
+      </div>
+      <button class="btn-whatsapp" id="cambiar">
+        <a target="_blank"
+          href="https://api.whatsapp.com/send?phone=51967787226&text=Me%20interesa%20saber%20m%C3%A1s%20sobre%20el%20precio%20de%20sus%20productos"><i
+            class="fab fa-whatsapp"></i></a>
+      </button>
+    </div>
 	
 	<!--<div class="bottom-line">
 		<span>Copyright - Registered 2015 by themenum</span>

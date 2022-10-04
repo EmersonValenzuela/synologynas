@@ -456,7 +456,7 @@
 	</section>
 	<div class="whatsapp-escritorio">
       <a class="btn-whatsapp" target="_blank"
-        href="https://api.whatsapp.com/send?phone=51941801827&text=Me%20interesa%20saber%20m%C3%A1s%20sobre%20el%20precio%20de%20sus%20productos"
+        href="https://api.whatsapp.com/send?phone=941801827&text=Hola,%20tengo%20un%20problema%20con%20mi%20equipo"
         style="background-color: #009345;"><i class="fab fa-whatsapp"></i><label>Atención Inmediata <br>
           <span>941801827</span></label></a>
     </div>
@@ -467,7 +467,7 @@
       </div>
       <button class="btn-whatsapp" id="cambiar">
         <a target="_blank"
-          href="https://api.whatsapp.com/send?phone=51941801827&text=Me%20interesa%20saber%20m%C3%A1s%20sobre%20el%20precio%20de%20sus%20productos"><i
+          href="https://api.whatsapp.com/send?phone=941801827&text=Hola,%20tengo%20un%20problema%20con%20mi%20equipo"><i
             class="fab fa-whatsapp"></i></a>
       </button>
     </div>

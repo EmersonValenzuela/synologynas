@@ -445,7 +445,7 @@
 							</div>
 						</div><!-- Map Location -->
 						<ul class="company-address">
-							<li><i class=" ti-location-pin "></i>Av. Defensores del Morro (ex Av. Huaylas) 13 Nº266 Chorrillos - Lima <br>Av. Jiron Arguedas 102, Chorrillos - Lima</li>
+							<li><i class=" ti-location-pin "></i>Av. Defensores del Morro (ex Av. Huaylas) 13 Nº266 Chorrillos - Lima <br>Jr Justo Pastor Davila 117,  (altura del parque fatina , en la ex  Av Huaylas )  Chorrillos - Lima </li>
 							<li><i class=" ti-mobile"></i>+51 941 801 827 / 972 252 744</li>
 							<li><i class=" ti-email"></i>contactos@servitec-peru.com</li>
 						</ul>
